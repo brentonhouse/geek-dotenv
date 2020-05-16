@@ -23,7 +23,7 @@
 	"main": "index.js",
 	"scripts": {
 		"list-files": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
-		"prepublishOnly2": "git pull && bump",
+		"prepublishOnly": "git pull && bump",
 		"test": "npm install --ignore-scripts && npm run list-files"
 	},
 	"dependencies": {
