@@ -33,7 +33,7 @@
 	},
 	"devDependencies": {
 		"eslint": "^7.11.0",
-		"@geek/eslint-config": "0.0.12"
+		"@geek/eslint-config": "0.0.16"
 	},
 	"engines": {
 		"node": ">=8.0"
