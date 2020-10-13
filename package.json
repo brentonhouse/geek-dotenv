@@ -22,21 +22,24 @@
 	},
 	"main": "index.js",
 	"scripts": {
-		"list-files": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
+		"list": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
 		"prepublishOnly": "git pull && bump",
-		"test": "npm install --ignore-scripts && npm run list-files"
+		"test": "npm install --ignore-scripts && npm run list"
 	},
 	"dependencies": {
 		"dotenv": "^8.2.0",
-		"dotenv-expand": "^5.1.0",
-		"lodash": "^4.17.15"
+		"dotenv-expand": "^5.1.0"
 	},
 	"devDependencies": {
-		"eslint": "^7.0.0",
-		"@geek/eslint-config": "0.0.10"
+		"eslint": "^7.11.0",
+		"eslint-plugin-import": "^2.22.1",
+		"eslint-plugin-jsdoc": "^30.6.4",
+		"eslint-plugin-promise": "^4.2.1",
+		"@geek/eslint-config": "0.0.17",
+		"lodash": "^4.17.20"
 	},
 	"engines": {
-		"node": ">=8.0"
+		"node": ">=12.0"
 	},
 	"maintainers": [
 		{

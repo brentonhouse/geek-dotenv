@@ -6,7 +6,6 @@ module.exports = manager;
 
 const fs = require('fs');
 const dotenv = require('dotenv');
-const _ = require('lodash');
 
 
 manager.expand = (...params) => {
@@ -20,19 +19,18 @@ manager.config = () => {
 manager.overload = (...filenames) => {
 
 	const config = dotenv.config();
-	_.forEach(filenames, filename => {
+	for (const filename of filenames) {
 
 		if (!fs.existsSync(filename)) {
 			console.warn(`@geek/dotenv.overload - file not found: ${filename}`);
-			return;
+			continue;
 		}
 		const envConfig = dotenv.parse(fs.readFileSync(filename));
 		for (const envVarName in envConfig) {
 			process.env[envVarName] = envConfig[envVarName];
 			config.parsed[envVarName] = envConfig[envVarName];
 		}
-
-	});
+	}
 	config.ignoreProcessEnv = true;
 	return require('dotenv-expand')(config);
 };
