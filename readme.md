@@ -10,14 +10,6 @@
 
 ---
 
-#### Follow Brenton House for the latest on great modules and libraries!
-
-[![Twitter Follow](https://img.shields.io/twitter/follow/brentonhouse?label=Follow%20%40brentonhouse%20on%20twitter&style=social)](https://twitter.com/brentonhouse)
-[![LinkedIn Follow](https://img.shields.io/badge/LinkedIn-_Connect_with_%40brentonhouse_-blue?logo=linkedin&style=flat-square)](https://www.linkedin.com/in/brentonhouse/)
-![Github Followers](https://img.shields.io/github/followers/brentonhouse?label=Follow%20%40brentonhouse%20on%20GitHub&style=social)
-
----
-
 * [📓   &nbsp; Description](#--description)
 * [🚀  &nbsp; Getting Started](#--getting-started)
 	* [🛠️  &nbsp; Install](#️--install)
@@ -95,6 +87,8 @@ dotenv.overload('.env.overload1','.env.overload2');
 
 Have an idea or a comment?  [Join in the conversation here](https://github.com/brentonhouse/geek-dotenv/issues)! 
 
+-----
+
 ## Follow Brenton House 
 
 > Follow [`Brenton House`](https://brenton.house) for the latest on great modules and libraries!
@@ -103,6 +97,7 @@ Have an idea or a comment?  [Join in the conversation here](https://github.com/b
 [![LinkedIn Follow](https://img.shields.io/badge/LinkedIn-_Connect_with_%40brentonhouse_-blue?logo=linkedin&style=flat-square)](https://www.linkedin.com/in/brentonhouse/)
 ![Github Followers](https://img.shields.io/github/followers/brentonhouse?label=Follow%20%40brentonhouse%20on%20GitHub&style=social)
 
+-----
 
 ## ©️  &nbsp; Legal
 

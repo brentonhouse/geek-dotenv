@@ -1,6 +1,6 @@
 {
 	"name": "@geek/dotenv",
-	"version": "0.0.6",
+	"version": "0.0.7",
 	"description": "Environment Variable Manager for Node.js - based on dotenv",
 	"keywords": [
 		"brenton-house",
