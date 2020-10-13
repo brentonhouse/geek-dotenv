@@ -18,15 +18,17 @@
 
 ---
 
-* [�   &nbsp; Description](#--description)
+* [📓   &nbsp; Description](#--description)
 * [🚀  &nbsp; Getting Started](#--getting-started)
 	* [🛠️  &nbsp; Install](#️--install)
-	* [&nbsp; Usage](#-usage)
+	* [💥 &nbsp; Usage](#--usage)
 * [✨  &nbsp; Features](#--features)
 * [🎓  &nbsp;  Learn More](#--learn-more)
 	* [📚  &nbsp;  Related projects](#--related-projects)
+		* [🎟️  &nbsp; Modules for Node.js](#️--modules-for-nodejs)
 		* [🎟️  &nbsp; Modules for Node.js and Titanium Mobile](#️--modules-for-nodejs-and-titanium-mobile)
 * [📣 Feedback](#-feedback)
+* [©️  &nbsp; Legal](#️--legal)
 
 ## 📓   &nbsp; Description
 
@@ -42,7 +44,7 @@ Environment Variable Manager for Node.js - based on dotenv
 npm install @geek/dotenv
 ```
 
-###  &nbsp; Usage
+### 💥 &nbsp; Usage
 
 ```JavaScript
 
@@ -68,6 +70,11 @@ dotenv.overload('.env.overload1','.env.overload2');
 
 ### 📚  &nbsp;  Related projects
 
+#### 🎟️  &nbsp; Modules for Node.js
+
+| project  	|  description 	|  npm	|
+|---	|---  |---	|
+| [@geek/google-sheets](https://www.npmjs.com/package/@geek/google-sheets)  	| Easy way to manage Google Sheets API from Node.js  	| [![@geek/google-sheets](https://img.shields.io/npm/v/@geek/google-sheets.png)](https://www.npmjs.com/package/@geek/google-sheets)      |
 
 #### 🎟️  &nbsp; Modules for Node.js and Titanium Mobile
 
