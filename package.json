@@ -1,6 +1,6 @@
 {
 	"name": "@geek/dotenv",
-	"version": "0.0.8",
+	"version": "0.0.9",
 	"description": "Environment Variable Manager for Node.js - based on dotenv",
 	"keywords": [
 		"brenton-house",
@@ -23,8 +23,9 @@
 	"main": "index.js",
 	"scripts": {
 		"list": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
-		"prepublishOnly": "git pull && bump",
-		"test": "npm install --ignore-scripts && npm run list"
+		"prepublishOnly": "git pull && bump release",
+		"prep": "npm install --ignore-scripts && npm run list",
+		"test": "npm run prep"
 	},
 	"dependencies": {
 		"dotenv": "^8.2.0",
