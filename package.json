@@ -34,7 +34,7 @@
 	"devDependencies": {
 		"eslint": "^7.11.0",
 		"@geek/eslint-config": "0.0.17",
-		"lodash": "^4.17.20"
+		"lodash": "^4.17.21"
 	},
 	"engines": {
 		"node": ">=12.0"
