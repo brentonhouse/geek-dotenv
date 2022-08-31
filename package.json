@@ -28,7 +28,7 @@
 		"test": "npm run prep"
 	},
 	"dependencies": {
-		"dotenv": "^8.2.0",
+		"dotenv": "^16.0.2",
 		"dotenv-expand": "^5.1.0"
 	},
 	"devDependencies": {
